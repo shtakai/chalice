@@ -235,6 +235,10 @@ the ``helloworld`` directory and it will deploy your application::
 Let's try it out.  Note the examples below use the ``http`` command
 from the ``httpie`` package.  You can install this using ``pip install httpie``::
 
+.. image:: https://badges.production.guardrails.io/shtakai/chalice.svg
+   :alt: GuardRails badge
+   :target: https://www.guardrails.io
+
     $ http https://endpoint/dev/cities/seattle
     HTTP/1.1 200 OK
 
